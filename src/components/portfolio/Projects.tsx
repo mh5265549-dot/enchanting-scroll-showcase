@@ -119,7 +119,7 @@ const Projects = () => {
               </div>
 
               <div className="mt-6 pt-5 border-t border-border/60 flex items-center justify-between text-xs font-mono text-muted-foreground">
-                <span>github.com/mh5265549-dot/{p.name}</span>
+                <span>By Hashir Shoaib · /{p.name}</span>
                 <span className="text-primary opacity-0 group-hover:opacity-100 transition-opacity">
                   Open →
                 </span>
