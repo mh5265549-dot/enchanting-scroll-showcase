@@ -21,11 +21,14 @@ const Contact = () => {
             </p>
 
             <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
-              <Button asChild variant="hero" size="lg" className="rounded-full">
-                <a href="mailto:mh5265549@gmail.com">
-                  <Mail className="h-4 w-4" />
-                  Email me
-                  <ArrowUpRight className="h-4 w-4" />
+              <Button asChild variant="hero" size="lg" className="rounded-full h-auto py-3">
+                <a href="mailto:mh5265549@gmail.com" className="flex flex-col items-center leading-tight">
+                  <span className="flex items-center gap-2">
+                    <Mail className="h-4 w-4" />
+                    Contact me on Gmail
+                    <ArrowUpRight className="h-4 w-4" />
+                  </span>
+                  <span className="font-mono text-xs opacity-90">mh5265549@gmail.com</span>
                 </a>
               </Button>
               <Button asChild variant="neon" size="lg" className="rounded-full">
