@@ -13,6 +13,11 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        display: ["'Space Grotesk'", "ui-sans-serif", "system-ui", "sans-serif"],
+        sans: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
+        mono: ["'JetBrains Mono'", "ui-monospace", "monospace"],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -22,6 +27,7 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          glow: "hsl(var(--primary-glow))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
