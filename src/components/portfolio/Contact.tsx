@@ -22,7 +22,7 @@ const Contact = () => {
 
             <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
               <Button asChild variant="hero" size="lg" className="rounded-full">
-                <a href="mailto:hashir.shoaib@example.com">
+                <a href="mailto:mh5265549@gmail.com">
                   <Mail className="h-4 w-4" />
                   Email me
                   <ArrowUpRight className="h-4 w-4" />
