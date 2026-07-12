@@ -12,42 +12,97 @@ type Project = {
 
 const projects: Project[] = [
   {
-    name: "cold-connect-showcase",
-    title: "Cold Connect — Outreach Showcase",
+    name: "weather-dashboard",
+    title: "Weather Dashboard — Gemini Insights",
     description:
-      "A polished showcase for an AI-driven cold-email outreach platform. Crafted in TypeScript with a focus on conversion-driven UX and clean, modular components.",
-    tags: ["TypeScript", "React", "UX", "Marketing"],
-    url: "https://github.com/mh5265549-dot/cold-connect-showcase",
-    language: "TypeScript",
+      "Intelligent weather insights powered by the Gemini API. A FastAPI + React app that turns raw forecasts into natural-language, actionable summaries.",
+    tags: ["FastAPI", "Gemini API", "React", "Weather"],
+    url: "https://github.com/mh5265549-dot/weather-dashboard",
+    language: "Python",
+    highlight: true,
+  },
+  {
+    name: "ecommerce-dashboard",
+    title: "E-commerce Dashboard — Shopify Analytics",
+    description:
+      "Real-time sales analytics for Shopify stores. Built with Django and Docker to surface revenue, orders, and trends the moment they happen.",
+    tags: ["Django", "Shopify", "Analytics", "Docker"],
+    url: "https://github.com/mh5265549-dot/ecommerce-dashboard",
+    language: "Python",
+    highlight: true,
+  },
+  {
+    name: "task-tracker-app",
+    title: "Task Tracker — Full-Stack Sync",
+    description:
+      "A full-stack task manager with real-time sync across devices. React front end, Node.js API, and PostgreSQL persistence.",
+    tags: ["React", "Node.js", "PostgreSQL", "Full-stack"],
+    url: "https://github.com/mh5265549-dot/task-tracker-app",
+    language: "JavaScript",
     highlight: true,
   },
   {
     name: "cold-email",
     title: "Cold Email — Automation Engine",
     description:
-      "A Python automation engine that personalizes and sends cold emails at scale. Built around AI-powered copy generation, deliverability best practices, and follow-up sequencing.",
+      "A Python automation engine that personalizes and sends cold emails at scale. AI-powered copy generation, deliverability best practices, and follow-up sequencing.",
     tags: ["Python", "Automation", "AI", "Email"],
     url: "https://github.com/mh5265549-dot/cold-email",
     language: "Python",
-    highlight: true,
   },
   {
-    name: "sanitaizer",
-    title: "Sanitaizer — Data Cleaning Toolkit",
+    name: "cold-connect-showcase",
+    title: "Cold Connect — Outreach Showcase",
     description:
-      "A lightweight toolkit for sanitizing messy real-world data — strings, inputs, and datasets — so ML pipelines stop choking on the bad stuff and start learning the good stuff.",
-    tags: ["Data", "Utility", "Validation"],
-    url: "https://github.com/mh5265549-dot/sanitaizer",
-    language: "Python",
+      "A polished showcase for an AI-driven cold-email outreach platform. Built in TypeScript with a focus on conversion-driven UX and clean, modular components.",
+    tags: ["TypeScript", "React", "UX", "Marketing"],
+    url: "https://github.com/mh5265549-dot/cold-connect-showcase",
+    language: "TypeScript",
   },
   {
     name: "naruto-chat-bot-game",
     title: "Naruto Chat Bot Game",
     description:
-      "A character-driven conversational game where players chat with Naruto-inspired AI personas. Combines prompt engineering with game-state logic for an immersive RPG vibe.",
+      "A character-driven conversational game where players chat with Naruto-inspired AI personas. Prompt engineering meets game-state logic for an immersive RPG vibe.",
     tags: ["LLM", "Chatbot", "Prompting", "Game"],
     url: "https://github.com/mh5265549-dot/naruto-chat-bot-game",
     language: "Python",
+  },
+  {
+    name: "sanitaizer",
+    title: "Sanitaizer — Data Cleaning Toolkit",
+    description:
+      "A lightweight toolkit for sanitizing messy real-world data — strings, inputs, and datasets — so ML pipelines stop choking on the bad stuff.",
+    tags: ["Data", "Utility", "Validation"],
+    url: "https://github.com/mh5265549-dot/sanitaizer",
+    language: "Python",
+  },
+  {
+    name: "whats-app",
+    title: "WhatsApp Automation Bot",
+    description:
+      "A Python bot for automating WhatsApp messaging workflows — scheduled sends, auto-replies, and scripted conversation flows.",
+    tags: ["Python", "Automation", "Messaging"],
+    url: "https://github.com/mh5265549-dot/whats-app",
+    language: "Python",
+  },
+  {
+    name: "hikah-home-essentials",
+    title: "Hikah Home Essentials — Storefront",
+    description:
+      "A modern e-commerce storefront for home essentials, built in TypeScript with a clean, responsive shopping experience.",
+    tags: ["TypeScript", "E-commerce", "React"],
+    url: "https://github.com/mh5265549-dot/hikah-home-essentials",
+    language: "TypeScript",
+  },
+  {
+    name: "my-website",
+    title: "Personal Website",
+    description:
+      "A personal website project built with JavaScript — an early portfolio and playground for web experiments.",
+    tags: ["JavaScript", "Web", "Portfolio"],
+    url: "https://github.com/mh5265549-dot/my-website",
+    language: "JavaScript",
   },
 ];
 
